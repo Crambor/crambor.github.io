@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    background: #CCCCCC;
+}
+.heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.text-container-one {
+    border-radius: 25px;
+    background: #add8e6;
+    width: 90%;
+    margin: auto auto 10px;
+}
+
+.text-container-two {
+    border-radius: 25px;
+    background: #FFFFCC;
+    width: 90%;
+    margin: auto auto 10px;
+}
+
+.video-container {
+    text-align: center;
+    border-radius: 25px;
+    background: #ccffcc;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.more-content {
+    margin: auto;
+    width: 50%;
+}
+
+.embed-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0;
+    height: 300px;
+    background-color: #CCCCCC;
+    display: none;
+}
+
+.fTab {
+    position: fixed;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 180px;
+    padding: 1em;
+    background-color: #CCCCCC;
+}
+
+.fTab.active {
+    bottom: 200px;
+}
+
+.fTab.active + footer {
+    max-height: 200px;
+    display: block;
+}
