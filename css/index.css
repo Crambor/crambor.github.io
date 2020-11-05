@@ -1,8 +1,3 @@
-.navbar {
-	height: 10%;
-	padding-left: 32px;
-}
-
 .carousel-container {
 	height: 83%;
 }
@@ -77,39 +72,3 @@
 	.carousel-indicators  li {
 		background-color: black;
 	}
-
-footer {
-	z-index: 2;
-    text-align: center;
-    position: fixed;
-    color: black;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    max-height: 0;
-    height: 300px;
-    background-color: #f8f9fa;
-    display: none;
-}
-
-.fTab {
-	height: 7%;
-    position: fixed;
-    text-align: center;
-    margin: 0 auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 180px;
-    padding: 1em;
-    background-color: #f8f9fa;
-}
-
-.fTab.active {
-    bottom: 200px;
-}
-
-.fTab.active + footer {
-    max-height: 200px;
-    display: block;
-}

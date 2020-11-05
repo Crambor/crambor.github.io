@@ -2,9 +2,6 @@ body {
     background-color: white;
 }
 
-.navbar {
-    background: #CCCCCC;
-}
 .heading {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -55,38 +52,4 @@ body {
     width: 100%;
     height: 100%;
 
-}
-
-footer {
-    text-align: center;
-    position: fixed;
-    color: black;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    max-height: 0;
-    height: 300px;
-    background-color: #CCCCCC;
-    display: none;
-}
-
-.fTab {
-    position: fixed;
-    text-align: center;
-    margin: 0 auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 180px;
-    padding: 1em;
-    background-color: #CCCCCC;
-}
-
-.fTab.active {
-    bottom: 200px;
-}
-
-.fTab.active + footer {
-    max-height: 200px;
-    display: block;
 }
